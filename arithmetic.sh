@@ -7,3 +7,9 @@ a2=$((($a*$b)+$c))
 a3=$(($c+($a/$b)))
 a4=$((($a%$b)+$c))
 
+declare -A arith
+arith[1]=$a1
+arith[2]=$a2
+arith[3]=$a3
+arith[4]=$a4
+
