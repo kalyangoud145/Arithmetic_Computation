@@ -13,3 +13,7 @@ arith[2]=$a2
 arith[3]=$a3
 arith[4]=$a4
 
+for ((i=1;i<=${#arith[@]} ;i++))
+do
+   array[$i]=${arith[$i]}
+done
