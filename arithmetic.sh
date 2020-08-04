@@ -17,3 +17,5 @@ for ((i=1;i<=${#arith[@]} ;i++))
 do
    array[$i]=${arith[$i]}
 done
+echo "decending order"
+echo ${array[@]} | sort -nr
