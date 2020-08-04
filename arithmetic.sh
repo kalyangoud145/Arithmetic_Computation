@@ -4,5 +4,6 @@ read -p "Enter the value of b " b
 read -p "Enter the value of c " c
 a1=$(($a+($b *$c)))
 a2=$((($a*$b)+$c))
-echo $a2
+a3=$(($c+($a/$b)))
+
 
