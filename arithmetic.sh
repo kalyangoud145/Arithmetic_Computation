@@ -1,8 +1,8 @@
 #!/bin/bash -x
-echo "Changes done by Shubham"
-echo "Changes done by Shubham"
-echo "Sorting Conflict Shubham"
-echo "Conflit Management Shubham"
+echo "Changes done by kalyan"
+echo "Changes done by kalyan"
+echo "Sorting Conflict kalyan"
+echo "Conflit Management kalyan"
 read -p "Enter the value of a " a
 read -p "Enter the value of b " b
 read -p "Enter the value of c " c
