@@ -5,5 +5,5 @@ read -p "Enter the value of c " c
 a1=$(($a+($b *$c)))
 a2=$((($a*$b)+$c))
 a3=$(($c+($a/$b)))
-
+a4=$((($a%$b)+$c))
 
