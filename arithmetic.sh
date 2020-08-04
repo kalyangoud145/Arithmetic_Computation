@@ -19,3 +19,6 @@ do
 done
 echo "decending order"
 echo ${array[@]} | sort -nr
+
+echo "asending order"
+printf "%s\n" "${array[@]}" | sort -n
